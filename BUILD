@@ -6,11 +6,12 @@ cc_binary(
         "include/"],
     srcs=glob([
         "include/*.h",
+        "include/*.hpp",
         "src/*.cpp"]),
     data=glob([
         "resources/**"]),
     deps=[
         "@glm//:glm",
-        "@opencv//:opencv",
-        "@opengl//:opengl"]
+        "@opengl//:opengl",
+        "@stb//:stb"]
 )

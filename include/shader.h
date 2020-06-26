@@ -1,12 +1,7 @@
 #ifndef SHADER_H
 #define SHADER_H
 
-#include <string>
-
-#define GL_GLEXT_PROTOTYPES 1
-#include <GL/gl.h>
-#include <GL/glext.h>
-
+#include "core.h"
 
 class Shader
 {
